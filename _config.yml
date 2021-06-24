@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
+minima:
+  skin: dark
 title: Liverpool City Region Civic Data Cooperative

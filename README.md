@@ -1,3 +1,5 @@
+![Civic Data Cooperative Logo](/images/cdc-logo.png)
+
 ## Imagine
 
 A vibrant, civic data environment so health-related data about our citizens works for our citizens. 

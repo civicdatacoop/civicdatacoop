@@ -14,3 +14,5 @@ We believe in being transparent about our programme. Information and papers that
 In the meantime, if you are interested in knowing more about how we are developing, our active documents are here: 
 
 [CDC Notion Pages](https://www.notion.so/Civic-Data-Cooperative-fc587f76dd1a4e01a66326cafaf81270)
+
+[Combined Intelligence for Public Health Action (CIPHA) Code Repository](https://github.com/cipha-uk) 

@@ -15,4 +15,7 @@ In the meantime, if you are interested in knowing more about how we are developi
 
 [CDC Notion Pages](https://www.notion.so/Civic-Data-Cooperative-fc587f76dd1a4e01a66326cafaf81270)
 
+[Combined Intelligence for Public Health Action (CIPHA)](https://www.cipha.nhs.uk) 
+
 [Combined Intelligence for Public Health Action (CIPHA) Code Repository](https://github.com/cipha-uk) 
+

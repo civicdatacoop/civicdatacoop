@@ -1,0 +1,114 @@
+{% if url == 'index' %}
+{# HOMEPAGE SLIDER #}
+    <!-- hero slider Start -->
+    <div class="banner-wrap">
+        <div class="banner-slider">
+            <!-- hero slide start -->
+            <div class="banner-slide bg1">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-animation="flipInX" data-delay="0.8s" data-color="#fff">
+                            Liverpool City Region
+                            Civic Data Cooperative</h1>
+                        <p data-animation="fadeInDown" class="mt-4">
+                            Building a vibrant environment where data about our citizens works for citizens.
+                            <span class="dis-none">We are a part of the University of Liverpool.</span>
+                        </p>
+                        <div class="cta-btn" data-animation="fadeInUp" data-delay="1s">
+                            <a href="about.html" class="btn btn-style btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+            <!-- hero slide end -->
+            <!-- hero slide start -->
+            <div class="banner-slide bg2">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-animation="fadeInDown" data-delay="0.8s" data-color="#fff">
+                            Liverpool City Region
+                            Civic Data Cooperative</h1>
+                        <p data-animation="fadeInDown" class="mt-4">
+                            Building a vibrant environment where data about our citizens works for citizens.
+                            <span class="dis-none">We are a part of the University of Liverpool.</span>
+                        </p>
+                        <div class="cta-btn" data-animation="fadeInDown" data-delay="1s">
+                            <a href="about.html" class="btn btn-style btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+            <!-- hero slide end -->
+            <!-- hero slide start -->
+            <div class="banner-slide bg3">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-animation="fadeInUp" data-color="#fff" data-delay="0.8s">
+                            Liverpool City Region
+                            Civic Data Cooperative</h1>
+                            <p data-animation="fadeInDown" class="mt-4">
+                                Building a vibrant environment where data about our citizens works for citizens.
+                                <span class="dis-none">We are a part of the University of Liverpool.</span>
+                            </p>
+                        <div class="cta-btn" data-animation="fadeInDown" data-delay="1s">
+                            <a href="about.html" class="btn btn-style btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+            <!-- hero slide end -->
+            <!-- hero slide start -->
+            <div class="banner-slide bg4">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-animation="flipInX" data-color="#fff" data-delay="0.8s">
+                            Liverpool City Region
+                            Civic Data Cooperative</h1>
+                            <p data-animation="fadeInDown" class="mt-4">
+                                Building a vibrant environment where data about our citizens works for citizens.
+                                <span class="dis-none">We are a part of the University of Liverpool.</span>
+                            </p>
+                        <div class="cta-btn" data-animation="fadeInUp" data-delay="1s">
+                            <a href="about.html" class="btn btn-style btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+            <!-- hero slide end -->
+        </div>
+    </div>
+    <!-- hero slider end -->
+
+{% else %}
+{# TOP SIDE OF OTHER PAGES #}
+
+<!-- breadcrumb -->
+<section class="w3l-about-breadcrumb text-center">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+        <div class="container py-lg-5 py-md-4">
+          <div class="w3breadcrumb-gids">
+            <div class="w3breadcrumb-left text-left">
+                      <h2 class="title AboutPageBanner">{{ name }}</h2>
+                                <p class="inner-page-para mt-2">Liverpool City Region Civic Data Cooperative</p>
+            </div>
+            <div class="w3breadcrumb-right">
+                  <ul class="breadcrumbs-custom-path">
+                    <li><a href="{{ link_to_homepage }}">Home</a></li>
+                    <li class="active"><span class="fas fa-angle-double-right mx-2"></span> {{ name }}</li>
+                  </ul>
+            </div>
+      </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </div>
+  </section>
+  <!--//breadcrumb-->
+{% endif %}
+
+<div style="margin: 8px auto; display: block; text-align:center;">
+    <!---728x90--->
+</div>

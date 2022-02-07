@@ -4613,10 +4613,6 @@ input[type="button"].btn-block {
   white-space: nowrap;
 
   color: #fff;
-  background: url(../images/logo_bw.png);
-  background-repeat: no-repeat;
-  background-size: auto 30px;
-  background-position: left center;
   
 }
 
@@ -4982,11 +4978,13 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-brand {
   color: #fff;
-  
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  /*
   background: url(../images/logo_simple.png);
   background-repeat: no-repeat;
   background-size: auto 30px;
-  background-position: left 12px;
+  background-position: left 12px; */
 }
 .navbar-brand span {
   padding: 0 0 0 35px;
@@ -17630,6 +17628,7 @@ button.navbar-toggler.collapsed .icon-expand {
 .navbar .navbar-brand img {
   max-width: 140px;
   transition: all 0.5s ease;
+  padding: 10px 15px 10px 15px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-item {

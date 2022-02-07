@@ -17627,6 +17627,7 @@ button.navbar-toggler.collapsed .icon-expand {
 
 .navbar .navbar-brand img {
   max-width: 140px;
+  max-height: 70px;
   transition: all 0.5s ease;
   padding: 10px 15px 10px 15px;
 }

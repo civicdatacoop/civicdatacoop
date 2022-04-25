@@ -25067,3 +25067,11 @@ h3.post-content-title {
   content: '@';
   font-style: normal;   
 }
+
+.list-normal li {
+  margin-bottom: 8px;
+  list-style: disclosure-closed;
+  color: #aaa;
+  list-style-position: inside;
+  list-style-type: disc;
+}

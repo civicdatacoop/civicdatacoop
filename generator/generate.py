@@ -120,6 +120,15 @@ pages = [
          last_mod=datetime.datetime(2022, 1, 1),
          name="License"
          ),
+    Page(title="LCR Civic Data Cooperative: CPRD Resource",
+         keywords=comm_keywords,  # noqa: E501
+         description=comm_description,  # noqa: E501
+         url="cprd",
+         content_file='page_cprd.html',
+         language="en",
+         last_mod=datetime.datetime(2022, 4, 25),
+         name="CPRD"
+         ),
 ]
 
 # Remove all existing resources
